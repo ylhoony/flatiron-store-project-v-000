@@ -18,7 +18,7 @@
 #  last_sign_in_ip        :string
 #
 
-FactoryGirl.define do
+FactoryBot.define do
   factory :user do
     name 'avi'
     password 'super_secret'
